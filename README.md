@@ -11,7 +11,7 @@ I build C, Python, and Go programs through 42 Tokyo projects, including librarie
 - **Name** — kawakawa
 - **Learning** — C / Python / Go / Assembly / Systems programming / Infrastructure
 - **Focus** — メモリ管理、並行処理、経路探索、TCP通信、LLMの構造化出力、コンテナによるサービスの分離。
-- **Code** — 学習課題と実装を [42Tokyocursus](https://github.com/kawakawa42Tokyo202604/42Tokyocursus) にまとめています。
+- **Code** — 学習課題と実装は、課題ごとのリポジトリに整理しています。
 
 ## 🟢 Tech Stack
 
@@ -45,45 +45,59 @@ I build C, Python, and Go programs through 42 Tokyo projects, including librarie
 
 ## 🟢 Featured projects
 
-- **[The Answer Protocol](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/TAP)** — Go / TCP / Fyne<br>
+- **[The Answer Protocol](https://github.com/kawakawa42Tokyo202604/Tap)（非公開）** — Go / TCP / Fyne<br>
   A shared text-adventure world with a TCP server, terminal and graphical clients, combat, quests, and chat.<br>
   ギリシャ神話の世界を複数人で探索するゲーム。Go製のTCPサーバーとCLI・GUIクライアントを実装し、戦闘・クエスト・チャット・状態の保存を扱います。
-- **[Fly-in](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/FLYIN)** — Python / Pathfinding<br>
+- **[Fly-in](https://github.com/kawakawa42Tokyo202604/FlyIn)（非公開）** — Python / Pathfinding<br>
   Plan drone movements while respecting location capacities, connection capacities, and travel times.<br>
   複数のドローンを目的地まで運ぶ経路と順番を計算するシミュレーター。各地点・経路の台数制限、通行禁止区域、移動時間を考慮します。
-- **[Call Me Maybe](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/callmemaybe)** — Python / LLM / JSON<br>
+- **[Call Me Maybe](https://github.com/kawakawa42Tokyo202604/CallMeMaybe)（非公開）** — Python / LLM / JSON<br>
   Convert written requests into function names and arguments using a small language model and constrained decoding.<br>
   文章の指示から、呼び出す関数名と引数をJSONで生成するツール。小型言語モデルの出力候補を制御し、自作のトークン分割と入力検証を組み合わせています。
-- **[Codexion](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/codexion)** — C / POSIX Threads<br>
+- **[Codexion](https://github.com/kawakawa42Tokyo202604/Codexion)（非公開）** — C / POSIX Threads<br>
   Simulate developers sharing equipment, with waiting queues and deadlines for their work.<br>
   複数の開発者が共有機器を順番に使うシミュレーション。スレッド間の同期、要求順・期限順の待ち行列、期限切れの監視を扱います。
-- **[Inception](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/Inception)** — Docker / Docker Compose / Shell<br>
+- **[Inception](https://github.com/kawakawa42Tokyo202604/Inception)（非公開）** — Docker / Docker Compose / Shell<br>
   A WordPress hosting environment with HTTPS, persistent data, backups, and restoration checks.<br>
   記事を投稿・閲覧できるWordPressサイトの実行環境。NGINX・WordPress・MariaDBを個別のコンテナで動かし、HTTPS・データの永続化・バックアップと復元検証を組み合わせています。
-- **[push_swap](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/push_swap)** — C / Sorting algorithms<br>
+- **[push_swap](https://github.com/kawakawa42Tokyo202604/PushSwap)（非公開）** — C / Sorting algorithms<br>
   Generate a short sequence of stack operations to sort integers, then validate it with a checker.<br>
   整数を小さい順に並べるための交換・移動・回転の手順を出力するプログラム。入力に応じた戦略の選択、操作数の計測、検証用checkerを備えています。
 
 <details open>
 <summary>42 Tokyo project list / 課題一覧</summary>
 
+課題ごとに独立したリポジトリを用意しています。必須要件の確認が済んだ課題を公開しています。非公開repoの閲覧には権限が必要です。
+
 | Project | Language / Technology | About |
 | --- | --- | --- |
-| [Piscine](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/piscine) | C / Shell | Cの基本文法、文字列・配列操作、Shell、Rush、BSQに取り組む課題群。 |
-| [libft](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/libft) | C | 標準Cライブラリの基本関数、文字列ユーティリティ、連結リスト操作をまとめた自作ライブラリ。 |
-| [ft_printf](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/ft_printf) | C | 書式指定文字列を解析し、文字列・数値・ポインタなどを出力する`printf`の一部を再実装。 |
-| [get_next_line](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/get_next_line) | C | ファイルディスクリプタから1行ずつ読み取る関数。ボーナスでは複数の読み取り対象の状態を管理。 |
-| [push_swap](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/push_swap) | C | スタック操作によるソート、複数戦略の選択、命令数の計測、`checker`による結果確認。 |
-| [Python modules 00–10](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/PythonModule) | Python | 基本文法、オブジェクト指向、例外処理、ファイル入出力、パッケージ、Pydantic、デコレータを学ぶ課題群。 |
-| [A-Maze-ing](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/A-maze-ing) | Python | 設定ファイルから迷路を生成し、入口から出口への経路を探索・出力するプログラム。 |
-| [A-Maze-ing bonus](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/A-maze-ing-bonus) | Python | DFS / Kruskalの生成アルゴリズム切り替え、対話式の表示操作、再利用可能なパッケージ化。 |
-| [Codexion](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/codexion) | C / POSIX Threads | 共有リソースの同期、FIFO / EDFの待ち行列、期限の監視を組み合わせた並行処理シミュレーション。 |
-| [Inception](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/Inception) | Docker / Shell | 自作コンテナによるWebインフラと、TLS・永続化・キャッシュ・バックアップ・復元検証。 |
-| [The Answer Protocol](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/TAP) | Go / TCP / Fyne | 複数人で探索・会話・戦闘を楽しむゲーム。サーバーとCLI・GUIクライアントを実装。 |
-| [Call Me Maybe](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/callmemaybe) | Python / LLM | 文章の指示を、関数名と引数を持つJSONデータへ変換。 |
-| [Fly-in](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/FLYIN) | Python / Pathfinding | 地点・経路の容量と移動時間を考慮し、複数ドローンの移動を計画。 |
+| [Piscine](https://github.com/kawakawa42Tokyo202604/Piscine)（非公開） | C / Shell | Cの基本文法、文字列・配列操作、Shell、Rush、BSQに取り組む課題群。 |
+| [libft](https://github.com/kawakawa42Tokyo202604/Libft)（非公開） | C | 標準Cライブラリの基本関数、文字列ユーティリティ、連結リスト操作をまとめた自作ライブラリ。 |
+| [ft_printf](https://github.com/kawakawa42Tokyo202604/FtPrintf)（非公開） | C | 書式指定文字列を解析し、文字列・数値・ポインタなどを出力する`printf`の一部を再実装。 |
+| [get_next_line](https://github.com/kawakawa42Tokyo202604/GetNextLine)（非公開） | C | ファイルディスクリプタから1行ずつ読み取る関数。ボーナスでは複数の読み取り対象の状態を管理。 |
+| [push_swap](https://github.com/kawakawa42Tokyo202604/PushSwap)（非公開） | C | スタック操作によるソート、複数戦略の選択、命令数の計測、`checker`による結果確認。 |
+| [Python modules 00–10](https://github.com/kawakawa42Tokyo202604/PythonModule)（非公開） | Python | 基本文法、オブジェクト指向、例外処理、ファイル入出力、パッケージ、Pydantic、デコレータを学ぶ課題群。 |
+| [A-Maze-ing](https://github.com/kawakawa42Tokyo202604/AMazeIng)（非公開） | Python | 設定ファイルから迷路を生成し、入口から出口への経路を探索・出力するプログラム。 |
+| [A-Maze-ing bonus](https://github.com/kawakawa42Tokyo202604/AMazeIngBonus)（非公開） | Python | DFS / Kruskalの生成アルゴリズム切り替え、対話式の表示操作、再利用可能なパッケージ化。 |
+| [Codexion](https://github.com/kawakawa42Tokyo202604/Codexion)（非公開） | C / POSIX Threads | 共有リソースの同期、FIFO / EDFの待ち行列、期限の監視を組み合わせた並行処理シミュレーション。 |
+| [Inception](https://github.com/kawakawa42Tokyo202604/Inception)（非公開） | Docker / Shell | 自作コンテナによるWebインフラと、TLS・永続化・キャッシュ・バックアップ・復元検証。 |
+| [The Answer Protocol](https://github.com/kawakawa42Tokyo202604/Tap)（非公開） | Go / TCP / Fyne | 複数人で探索・会話・戦闘を楽しむゲーム。サーバーとCLI・GUIクライアントを実装。 |
+| [Call Me Maybe](https://github.com/kawakawa42Tokyo202604/CallMeMaybe)（非公開） | Python / LLM | 文章の指示を、関数名と引数を持つJSONデータへ変換。 |
+| [Fly-in](https://github.com/kawakawa42Tokyo202604/FlyIn)（非公開） | Python / Pathfinding | 地点・経路の容量と移動時間を考慮し、複数ドローンの移動を計画。 |
 | [Dr Quine](https://github.com/kawakawa42Tokyo202604/DrQuine) | C / Assembly / Go | 自分のソースを表示・保存・連鎖生成する自己複製プログラム。 |
 | [libasm](https://github.com/kawakawa42Tokyo202604/Libasm) | x86-64 Assembly | Cから呼び出せる文字列・メモリ・ファイル入出力の基本関数集。 |
+
+| [Born2beRoot](https://github.com/kawakawa42Tokyo202604/Born2BeRoot)（非公開） | Linux / VirtualBox | 仮想サーバーの構築・セキュリティ設定。 |
+| [NetPractice](https://github.com/kawakawa42Tokyo202604/NetPractice) | TCP/IP / Networking | IP・サブネット・経路設定の10レベルのネットワーク演習。 |
+| [Packman](https://github.com/kawakawa42Tokyo202604/Packman)（非公開） | Python / pygame | 外部迷路生成器と組み合わせたパックマンゲーム。 |
+| [RAG](https://github.com/kawakawa42Tokyo202604/Rag)（非公開） | Python / BM25 / LLM | コードベースを検索し、根拠に基づいて回答するRAGパイプライン。 |
+| [AgentSmith](https://github.com/kawakawa42Tokyo202604/AgentSmith)（非公開） | Python / LLM / Sandbox | コード生成・実行・検証を繰り返す開発支援エージェント。 |
+| [ft_resume](https://github.com/kawakawa42Tokyo202604/FtResume)（非公開） | Career preparation | 応募先に合わせた履歴書とプロフィールの準備。 |
+| [B](https://github.com/kawakawa42Tokyo202604/B)（非公開） | C / flex / bison | B言語コンパイラの制作途中。 |
+| [Inception-of-Things](https://github.com/kawakawa42Tokyo202604/InceptionOfThings)（非公開） | Vagrant / K3s / Argo CD | 仮想環境とKubernetesの学習課題。 |
+| [Cybersecurity](https://github.com/kawakawa42Tokyo202604/Cybersecurity)（非公開） | Go / C / Networking | Cybersecurity Piscineの作業用ひな型。 |
+| [DataScience](https://github.com/kawakawa42Tokyo202604/DataScience)（非公開） | Python / SQL | Data Science Piscineの作業用ひな型。 |
+| [PythonForDataScience](https://github.com/kawakawa42Tokyo202604/PythonForDataScience)（非公開） | Python | Python for Data Scienceの作業用ひな型。 |
 
 </details>
 
