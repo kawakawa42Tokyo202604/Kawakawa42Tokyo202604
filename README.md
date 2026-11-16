@@ -67,7 +67,7 @@ I build C, Python, and Go programs through 42 Tokyo projects, including librarie
 <details open>
 <summary>42 Tokyo project list / 課題一覧</summary>
 
-課題ごとに独立したリポジトリを用意しています。必須要件の確認が済んだ課題を公開しています。非公開repoの閲覧には権限が必要です。
+課題ごとに独立したリポジトリを用意しています。現在はすべて非公開で管理しています。閲覧には権限が必要です。
 
 | Project | Language / Technology | About |
 | --- | --- | --- |
@@ -84,11 +84,11 @@ I build C, Python, and Go programs through 42 Tokyo projects, including librarie
 | [The Answer Protocol](https://github.com/kawakawa42Tokyo202604/Tap)（非公開） | Go / TCP / Fyne | 複数人で探索・会話・戦闘を楽しむゲーム。サーバーとCLI・GUIクライアントを実装。 |
 | [Call Me Maybe](https://github.com/kawakawa42Tokyo202604/CallMeMaybe)（非公開） | Python / LLM | 文章の指示を、関数名と引数を持つJSONデータへ変換。 |
 | [Fly-in](https://github.com/kawakawa42Tokyo202604/FlyIn)（非公開） | Python / Pathfinding | 地点・経路の容量と移動時間を考慮し、複数ドローンの移動を計画。 |
-| [Dr Quine](https://github.com/kawakawa42Tokyo202604/DrQuine) | C / Assembly / Go | 自分のソースを表示・保存・連鎖生成する自己複製プログラム。 |
-| [libasm](https://github.com/kawakawa42Tokyo202604/Libasm) | x86-64 Assembly | Cから呼び出せる文字列・メモリ・ファイル入出力の基本関数集。 |
+| [Dr Quine](https://github.com/kawakawa42Tokyo202604/DrQuine)（非公開） | C / Assembly / Go | 自分のソースを表示・保存・連鎖生成する自己複製プログラム。 |
+| [libasm](https://github.com/kawakawa42Tokyo202604/Libasm)（非公開） | x86-64 Assembly | Cから呼び出せる文字列・メモリ・ファイル入出力の基本関数集。 |
 
 | [Born2beRoot](https://github.com/kawakawa42Tokyo202604/Born2BeRoot)（非公開） | Linux / VirtualBox | 仮想サーバーの構築・セキュリティ設定。 |
-| [NetPractice](https://github.com/kawakawa42Tokyo202604/NetPractice) | TCP/IP / Networking | IP・サブネット・経路設定の10レベルのネットワーク演習。 |
+| [NetPractice](https://github.com/kawakawa42Tokyo202604/NetPractice)（非公開） | TCP/IP / Networking | IP・サブネット・経路設定の10レベルのネットワーク演習。 |
 | [Packman](https://github.com/kawakawa42Tokyo202604/Packman)（非公開） | Python / pygame | 外部迷路生成器と組み合わせたパックマンゲーム。 |
 | [RAG](https://github.com/kawakawa42Tokyo202604/Rag)（非公開） | Python / BM25 / LLM | コードベースを検索し、根拠に基づいて回答するRAGパイプライン。 |
 | [AgentSmith](https://github.com/kawakawa42Tokyo202604/AgentSmith)（非公開） | Python / LLM / Sandbox | コード生成・実行・検証を繰り返す開発支援エージェント。 |
